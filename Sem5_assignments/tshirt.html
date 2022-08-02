@@ -1,0 +1,106 @@
+<!-- Design a HTML form to take inputs to place order for  Customized T shirts. Accept fields like Tagline on the shirt, color, size, quantity, date and other details of delivery etc.  (include HTML5 form tags) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-shirt shop</title>
+</head>
+
+<body>
+  <h2>New custom printed t-shirt from Cargo</h2>
+  <!-- <img src="https://goodmockups.com/wp-content/uploads/2017/08/Free-Black-White-Half-Sleeves-T-Shirt-Mockup-PSD.jpg" alt="google.com"> -->
+  <img
+    src="https://media.istockphoto.com/vectors/white-and-black-tshirt-mockup-sport-blank-shirt-template-front-and-vector-id1167513757?k=20&m=1167513757&s=170667a&w=0&h=w50XV0Yt12I0EcLnVEkvf0q5P7iflooTXdcU0nNALUg="
+    alt="google.com">
+  <br>
+  <label for="size">Choose your size:</label>
+
+  <select name="size" id="sizechart">
+    <option value="XS">XS</option>
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+    <option value="XXL">XXL</option>
+  </select>
+
+  <h4>Type in the words you want to print on your custom t-shirt:</h4>
+  <input type="textarea" placeholder="Enter your text">
+  <br>
+  <div>
+    <br>
+    <input checked type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+    <label for="flexRadioDefault1"> Black </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+    <label for="flexRadioDefault2"> Blue </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
+    <label for="flexRadioDefault3"> Red </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault" id="flexRadioDefault4" />
+    <label for="flexRadioDefault4"> White </label>
+  </div>
+  <br />
+  </div>
+
+  <input type="range" id="volume" name="volume" value="1" min="1" max="5" />
+  <label for="volume">Quantity</label>
+  <br>
+  <br>
+  <label for="date">Select Delivery Date:</label>
+
+  <input type="date" id="date" name="date" value="2022-07-22" min="2022-08-01" max="2022-12-31" />
+  </section>
+  <br />
+  <p>Total: $47.99</p>
+  <p>Choose Payment Method</p>
+  <div>
+    <input checked type="radio" name="flexRadioDefault2" id="flexRadioDefault5" />
+    <label for="flexRadioDefault5"> Credit/Debit Card </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault2" id="flexRadioDefault6" />
+    <label for="flexRadioDefault6"> UPI </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault2" id="flexRadioDefault8" />
+    <label for="flexRadioDefault8"> Pay using wallet </label>
+  </div>
+  <div>
+    <input type="radio" name="flexRadioDefault2" id="flexRadioDefault7" />
+    <label for="flexRadioDefault7"> Pay on delivery </label>
+  </div>
+  <section>
+    <b>Enter Your Details Here:-</b><br /><br />
+    <label for="fname">First name:-</label><br /><br />
+    <input type="text" id="fname" name="fname" placeholder="Enter Your first name here" /><br /><br />
+
+    <label for="lname">Last Name</label><br /><br />
+    <input type="text" id="lname" name="lname" placeholder="Enter Your Surname here" /><br /><br />
+
+    <label for="address">Address</label><br /><br />
+    <textarea name="address" id="address" cols="20" rows="3" maxlength="200"
+      placeholder="Enter Your address here"></textarea><br /><br />
+
+    <label for="Contact">Contact No:-</label><br /><br />
+    <input type="tel" name="Contact" id="Contact" maxlength="10"
+      placeholder="Enter Your contact no. here" /><br /><br />
+
+    <label for="email">Email:-</label><br /><br />
+    <input type="email" name="email" id="email" placeholder="Enter your Email Here" /><br /><br />
+  </section>
+
+  <button type="button">Place Order</button>
+  </form>
+  </section>
+</body>
+
+</html>
